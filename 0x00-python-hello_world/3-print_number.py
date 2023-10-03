@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 number = 98
-print("{:d} Battery street".format(number))
+# only accept integer and throw unknown format error
+print(f"{number} Battery street")
